@@ -1,24 +1,23 @@
-<?php return array (
-  'root' => 
-  array (
-    'pretty_version' => 'dev-main',
-    'version' => 'dev-main',
-    'aliases' => 
-    array (
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => '30bb7c165d11832a21ea87769b9b368940fe58f1',
+        'name' => 'duro/fork-docx2jats',
+        'dev' => true,
     ),
-    'reference' => 'd5ab4b12220646b40524b31073d74cd66786ca8f',
-    'name' => 'doc/docx2jats',
-  ),
-  'versions' => 
-  array (
-    'doc/docx2jats' => 
-    array (
-      'pretty_version' => 'dev-main',
-      'version' => 'dev-main',
-      'aliases' => 
-      array (
-      ),
-      'reference' => 'd5ab4b12220646b40524b31073d74cd66786ca8f',
+    'versions' => array(
+        'duro/fork-docx2jats' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => '30bb7c165d11832a21ea87769b9b368940fe58f1',
+            'dev_requirement' => false,
+        ),
     ),
-  ),
 );
